@@ -1,8 +1,15 @@
+// Workflow GIT:
+// Fazer o Fork.
+// Criar a branch: git checkout -b feature/pagina-voluntariado-nomedoaluno.
+// Desenvolver apenas dentro do arquivo src/pages/Voluntariado.jsx.
+// Adicionar, comitar e fazer o Push.
+// Fazer o Pull Request para o repositório original.
+
 import React from 'react';
 import Template from './Template';
 
-const PlaceholderPage = ({ title }) => (
-    <Template title={title}>
+const Voluntariado = () => (
+    <Template title="Seja um Voluntário">
         <div className="space-y-6">
             <p className="text-lg text-slate-600 leading-relaxed">
                 Esta página está sendo preparada para mostrar o impacto do <strong>Instituto Casa do Pai</strong> nesta área.
@@ -20,15 +27,4 @@ const PlaceholderPage = ({ title }) => (
     </Template>
 );
 
-export const QuemSomos = () => <PlaceholderPage title="Quem Somos" />;
-export const Educacao = () => <PlaceholderPage title="Educação" />;
-export const Esportes = () => <PlaceholderPage title="Esportes" />;
-export const Culinaria = () => <PlaceholderPage title="Culinária Social" />;
-export const ApoioPsicologico = () => <PlaceholderPage title="Apoio Psicológico" />;
-export const Cursos = () => <PlaceholderPage title="Cursos Profissionalizantes" />;
-export const Transparencia = () => <PlaceholderPage title="Transparência" />;
-export const Doar = () => <PlaceholderPage title="Como Ajudar / Doações" />;
-export const Eventos = () => <PlaceholderPage title="Eventos Beneficentes" />;
-export const Voluntariado = () => <PlaceholderPage title="Seja um Voluntário" />;
-export const Parceiros = () => <PlaceholderPage title="Parceiros e Empresas" />;
-export const Contato = () => <PlaceholderPage title="Contato" />;
+export default Voluntariado;

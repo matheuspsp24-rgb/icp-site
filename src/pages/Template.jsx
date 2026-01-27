@@ -27,11 +27,11 @@ const Template = ({ title, children, developerName = "Desenvolvedor ICP" }) => {
                         {title}
                     </h1>
                     <div className="h-1 w-24 bg-institutional-orange mx-auto rounded-full"></div>
-                    {developerName && (
+                    {/* {developerName && (
                         <p className="mt-4 text-slate-500 text-sm italic">
                             Desenvolvido por: <span className="text-institutional-orange font-semibold">{developerName}</span>
                         </p>
-                    )}
+                    )} */}
                 </header>
 
                 <main className="bg-white rounded-3xl shadow-xl shadow-slate-200/50 p-8 md:p-12 fade-item">

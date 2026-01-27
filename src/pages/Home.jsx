@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { Heart, Users, BookOpen, Utensils } from 'lucide-react';
-import heroImage from '../assets/home/Slides_site_.avif';
+import heroImage from '../assets/home/background.avif';
 
 gsap.registerPlugin(ScrollTrigger);
 
