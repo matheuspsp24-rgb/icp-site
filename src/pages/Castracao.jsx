@@ -62,7 +62,7 @@ const Castracao = () => {
     }, []);
 
     return (
-        <Template title="Castração">
+        <Template title="Castração e Adoção">
             <div className="space-y-12 pb-12">
 
                 {/* Parallax Hero Section - Funny Dog */}

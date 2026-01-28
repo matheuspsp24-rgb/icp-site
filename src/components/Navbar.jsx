@@ -64,6 +64,7 @@ const Navbar = () => {
     const actingRoutes = [
         { name: 'Transparência', path: '/transparencia' },
         { name: 'Eventos', path: '/eventos' },
+        { name: 'Castração / Adoção', path: '/castracao' },
         { name: 'Parceiros e Empresas', path: '/parceiros' },
         { name: 'Editais', path: '/editais' },
         { name: 'Contato', path: '/contato' },
