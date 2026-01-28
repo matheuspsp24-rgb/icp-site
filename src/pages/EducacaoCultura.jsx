@@ -10,10 +10,10 @@ import React from 'react';
 import Template from './Template';
 
 // Imagens da galeria
-import salaAula from '../assets/Educacao/sala-aula.jpg';
-import informaticaCurso from '../assets/Educacao/informatica-curso.jpg';
-import programacaoAula from '../assets/Educacao/programacao-aula.jpg';
-import roboticaInstitucional from '../assets/Educacao/robotica-institucional.jpg';
+import salaAula from '../assets/EducacaoCultura/sala-aula.jpg';
+import informaticaCurso from '../assets/EducacaoCultura/informatica-curso.jpg';
+import programacaoAula from '../assets/EducacaoCultura/programacao-aula.jpg';
+import roboticaInstitucional from '../assets/EducacaoCultura/robotica-institucional.jpg';
 
 // Estilos CSS para efeito de folha de caderno
 const notebookStyles = {
