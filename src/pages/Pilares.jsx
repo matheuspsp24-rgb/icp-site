@@ -104,11 +104,11 @@ const Pilares = () => (
                     </p>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                         <div className="text-center border-r border-white/10 last:border-0">
-                            <div className="text-3xl font-bold text-institutional-orange mb-1">1200+</div>
+                            <div className="text-3xl font-bold text-institutional-orange mb-1">+9102</div>
                             <div className="text-xs text-slate-400 uppercase tracking-tighter">Castrações</div>
                         </div>
                         <div className="text-center border-r border-white/10 last:border-0">
-                            <div className="text-3xl font-bold text-institutional-orange mb-1">500+</div>
+                            <div className="text-3xl font-bold text-institutional-orange mb-1">+500</div>
                             <div className="text-xs text-slate-400 uppercase tracking-tighter">Adoções</div>
                         </div>
                         <div className="text-center">

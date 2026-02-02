@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Linkedin, Twitter, Facebook, Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Linkedin, Instagram, Facebook, Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -81,13 +81,13 @@ const Footer = () => {
                             Nos acompanhe nas redes sociais do instituto e confira as nossas ações.
                         </p>
                         <div className="flex gap-4">
-                            <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-institutional-blue transition-colors text-slate-400 hover:text-white">
+                            <a href="https://linkedin.com/company/instituto_casadopai" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-institutional-blue transition-colors text-slate-400 hover:text-white">
                                 <Linkedin className="w-5 h-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-sky-500 transition-colors text-slate-400 hover:text-white">
-                                <Twitter className="w-5 h-5" />
+                            <a href="https://instagram.com/instituto_casadopai" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-sky-500 transition-colors text-slate-400 hover:text-white">
+                                <Instagram className="w-5 h-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors text-slate-400 hover:text-white">
+                            <a href="https://facebook.com/institutocasadopai" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors text-slate-400 hover:text-white">
                                 <Facebook className="w-5 h-5" />
                             </a>
                         </div>

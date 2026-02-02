@@ -8,13 +8,13 @@
 import React from 'react';
 import Template from './Template';
 
-import salgados from '../assets/empreendedorismo/salgados.png';
-import panificacao from '../assets/empreendedorismo/panificacao.png';
-import sobrancelhas from '../assets/empreendedorismo/sobrancelhas.png';
+import salgados from '../assets/empreendedorismo/salgados.jpeg';
+import panificacao from '../assets/empreendedorismo/panificacao.jpeg';
+import sobrancelhas from '../assets/empreendedorismo/sobrancelhas.jpeg';
 import cabeleireiro from '../assets/empreendedorismo/cabeleireiro.png';
 import corteCostura from '../assets/empreendedorismo/corte_costura.png';
-import costuraCriativa from '../assets/empreendedorismo/costura_criativa.png';
-import artesanato from '../assets/empreendedorismo/artesanato.jpg';
+import costuraCriativa from '../assets/empreendedorismo/costura_criativa.jpeg';
+import artesanato from '../assets/empreendedorismo/artesanato.png';
 
 const cursos = [
     {

@@ -17,10 +17,10 @@ import {
 import Template from './Template';
 
 // Imagens da galeria
-import salaAula from '../assets/EducacaoCultura/sala-aula.jpg';
-import informaticaCurso from '../assets/EducacaoCultura/informatica-curso.jpg';
-import programacaoAula from '../assets/EducacaoCultura/programacao-aula.jpg';
-import roboticaInstitucional from '../assets/EducacaoCultura/robotica-institucional.jpg';
+import salaAula from '../assets/EducacaoCultura/sala-aula.jpeg';
+import informaticaCurso from '../assets/EducacaoCultura/PHOTO-2024-07-25-14-14-54.jpeg';
+import programacaoAula from '../assets/EducacaoCultura/WhatsApp Image 2024-07-25 at 13.39.16.jpeg';
+import roboticaInstitucional from '../assets/EducacaoCultura/2020_09_20_12_13_IMG_5338.JPG.jpeg';
 
 // Estilos CSS para efeito de folha de caderno
 const notebookStyles = {
@@ -119,11 +119,11 @@ const Educacao = () => (
                 {/* 2. Estatísticas de Impacto */}
                 <section className="grid grid-cols-2 md:grid-cols-3 gap-6">
                     <div className="text-center p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-2xl">
-                        <span className="text-4xl font-bold text-green-600">500+</span>
+                        <span className="text-4xl font-bold text-green-600">+700</span>
                         <p className="text-slate-600 mt-2 text-sm">Alunos Atendidos por Ano</p>
                     </div>
                     <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl">
-                        <span className="text-4xl font-bold text-purple-600">20+</span>
+                        <span className="text-4xl font-bold text-purple-600">+15</span>
                         <p className="text-slate-600 mt-2 text-sm">Cursos e Oficinas</p>
                     </div>
                     <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl">
@@ -497,7 +497,7 @@ const Educacao = () => (
                         Como se Inscrever
                     </h2>
                     <p className="text-slate-600 mb-8 max-w-2xl mx-auto">
-                        As inscrições estão abertas! Para participar de nossos programas educacionais,
+                        Para participar de nossos programas educacionais,
                         compareça à nossa sede com os documentos necessários ou entre em contato:
                     </p>
                     <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto mb-8">

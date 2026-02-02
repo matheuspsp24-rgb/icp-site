@@ -7,11 +7,11 @@ import Template from './Template';
 
 // Importação das imagens
 import poloImg from '../assets/cursos/polo.png';
-import programacaoImg from '../assets/cursos/programacao.png';
-import roboticaImg from '../assets/cursos/robotica.png';
+import programacaoImg from '../assets/cursos/programacao.jpeg';
+import roboticaImg from '../assets/cursos/robotica.jpeg';
 import informaticaImg from '../assets/cursos/informatica.png';
-import iaImg from '../assets/cursos/ia.png';
-import midiasSociaisImg from '../assets/cursos/midias-sociais.png';
+import iaImg from '../assets/cursos/ia.jpeg';
+import midiasSociaisImg from '../assets/cursos/midias-sociais.jpeg';
 
 const CourseCard = ({ icon: Icon, title, description, image }) => (
     <div className="bg-white rounded-[2.5rem] shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-500 group overflow-hidden flex flex-col">
@@ -87,7 +87,7 @@ const Tecnologia = () => {
                         </div>
 
                         <h1 className="text-4xl md:text-6xl font-black text-slate-800 leading-tight">
-                            Polo de <span className="text-institutional-blue">Tecnologia</span>
+                            Primeiro <span className="text-institutional-blue">Polo de Tecnologia</span> de <span className="text-institutional-blue">Itaguaí</span>
                         </h1>
 
                         <p className="text-xl text-slate-600 leading-relaxed">
@@ -96,7 +96,7 @@ const Tecnologia = () => {
 
                         <div className="grid grid-cols-2 gap-6 pt-4">
                             <div className="p-4 bg-slate-50 rounded-2xl border border-slate-100">
-                                <div className="text-2xl font-bold text-institutional-blue mb-1">200+</div>
+                                <div className="text-2xl font-bold text-institutional-blue mb-1">+1500</div>
                                 <div className="text-xs text-slate-400 uppercase tracking-widest font-bold">Alunos Ativos</div>
                             </div>
                             <div className="p-4 bg-slate-50 rounded-2xl border border-slate-100">

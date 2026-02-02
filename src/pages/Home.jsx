@@ -147,11 +147,12 @@ const Home = () => {
                         <p className="section-title text-lg text-slate-500">Nossa transparência é o que nos move adiante.</p>
                     </div>
 
+                    {/* colocar "mais de" antes dos números */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                        <Counter end={18} label="Anos Transformando Vidas" icon={Users} color="bg-orange-500" />
-                        <Counter end={1200} label="Castrações" icon={PawPrint} color="bg-green-500" />
+                        <Counter end={19} label="Anos Transformando Vidas" icon={Users} color="bg-orange-500" />
+                        <Counter end={9102} label="Castrações" icon={PawPrint} color="bg-green-500" />
                         <Counter end={18000} label="Pessoas Impactadas" icon={BookOpen} color="bg-blue-600" />
-                        <Counter end={12} label="Projetos Ativos" icon={Heart} color="bg-pink-500" />
+                        <Counter end={42} label="Projetos" icon={Heart} color="bg-pink-500" />
                     </div>
                 </div>
             </section>
